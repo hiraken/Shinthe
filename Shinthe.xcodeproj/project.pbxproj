@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616731EA158D6DD9008E186C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616731E9158D6DD9008E186C /* UIKit.framework */; };
+		616731EC158D6DD9008E186C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616731EB158D6DD9008E186C /* Foundation.framework */; };
+		616731EE158D6DD9008E186C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616731ED158D6DD9008E186C /* CoreGraphics.framework */; };
+		616731F4158D6DDA008E186C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 616731F2158D6DDA008E186C /* InfoPlist.strings */; };
+		616731F6158D6DDA008E186C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616731F5158D6DDA008E186C /* main.m */; };
+		616731FA158D6DDA008E186C /* _0120617AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616731F9158D6DDA008E186C /* _0120617AppDelegate.m */; };
+		616731FD158D6DDA008E186C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616731FB158D6DDA008E186C /* MainStoryboard_iPhone.storyboard */; };
+		61673200158D6DDA008E186C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 616731FE158D6DDA008E186C /* MainStoryboard_iPad.storyboard */; };
+		61673203158D6DDA008E186C /* _0120617ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61673202158D6DDA008E186C /* _0120617ViewController.m */; };
+		6167320B158D6DDA008E186C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6167320A158D6DDA008E186C /* SenTestingKit.framework */; };
+		6167320C158D6DDA008E186C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616731E9158D6DD9008E186C /* UIKit.framework */; };
+		6167320D158D6DDA008E186C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616731EB158D6DD9008E186C /* Foundation.framework */; };
+		61673215158D6DDA008E186C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61673213158D6DDA008E186C /* InfoPlist.strings */; };
+		61673218158D6DDA008E186C /* ShintheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61673217158D6DDA008E186C /* ShintheTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6167320E158D6DDA008E186C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616731DC158D6DD8008E186C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616731E4158D6DD9008E186C;
+			remoteInfo = Shinthe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		616731E5158D6DD9008E186C /* Shinthe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shinthe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		616731E9158D6DD9008E186C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		616731EB158D6DD9008E186C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		616731ED158D6DD9008E186C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		616731F1158D6DDA008E186C /* Shinthe-Info.plist */ = {isa = PBXFileReference; path = "Shinthe-Info.plist"; sourceTree = "<group>"; };
+		616731F3158D6DDA008E186C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		616731F5158D6DDA008E186C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		616731F7158D6DDA008E186C /* Shinthe-Prefix.pch */ = {isa = PBXFileReference; path = "Shinthe-Prefix.pch"; sourceTree = "<group>"; };
+		616731F8158D6DDA008E186C /* _0120617AppDelegate.h */ = {isa = PBXFileReference; path = _0120617AppDelegate.h; sourceTree = "<group>"; };
+		616731F9158D6DDA008E186C /* _0120617AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0120617AppDelegate.m; sourceTree = "<group>"; };
+		616731FC158D6DDA008E186C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		616731FF158D6DDA008E186C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		61673201158D6DDA008E186C /* _0120617ViewController.h */ = {isa = PBXFileReference; path = _0120617ViewController.h; sourceTree = "<group>"; };
+		61673202158D6DDA008E186C /* _0120617ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0120617ViewController.m; sourceTree = "<group>"; };
+		61673209158D6DDA008E186C /* ShintheTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShintheTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6167320A158D6DDA008E186C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		61673212158D6DDA008E186C /* ShintheTests-Info.plist */ = {isa = PBXFileReference; path = "ShintheTests-Info.plist"; sourceTree = "<group>"; };
+		61673214158D6DDA008E186C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61673216158D6DDA008E186C /* ShintheTests.h */ = {isa = PBXFileReference; path = ShintheTests.h; sourceTree = "<group>"; };
+		61673217158D6DDA008E186C /* ShintheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShintheTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616731E2158D6DD9008E186C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616731EA158D6DD9008E186C /* UIKit.framework in Frameworks */,
+				616731EC158D6DD9008E186C /* Foundation.framework in Frameworks */,
+				616731EE158D6DD9008E186C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61673205158D6DDA008E186C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6167320B158D6DDA008E186C /* SenTestingKit.framework in Frameworks */,
+				6167320C158D6DDA008E186C /* UIKit.framework in Frameworks */,
+				6167320D158D6DDA008E186C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616731DA158D6DD8008E186C = {
+			isa = PBXGroup;
+			children = (
+				616731EF158D6DD9008E186C /* Shinthe */,
+				61673210158D6DDA008E186C /* ShintheTests */,
+				616731E8158D6DD9008E186C /* Frameworks */,
+				616731E6158D6DD9008E186C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616731E6158D6DD9008E186C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616731E5158D6DD9008E186C /* Shinthe.app */,
+				61673209158D6DDA008E186C /* ShintheTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616731E8158D6DD9008E186C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				616731E9158D6DD9008E186C /* UIKit.framework */,
+				616731EB158D6DD9008E186C /* Foundation.framework */,
+				616731ED158D6DD9008E186C /* CoreGraphics.framework */,
+				6167320A158D6DDA008E186C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		616731EF158D6DD9008E186C /* Shinthe */ = {
+			isa = PBXGroup;
+			children = (
+				616731F8158D6DDA008E186C /* _0120617AppDelegate.h */,
+				616731F9158D6DDA008E186C /* _0120617AppDelegate.m */,
+				616731FB158D6DDA008E186C /* MainStoryboard_iPhone.storyboard */,
+				616731FE158D6DDA008E186C /* MainStoryboard_iPad.storyboard */,
+				61673201158D6DDA008E186C /* _0120617ViewController.h */,
+				61673202158D6DDA008E186C /* _0120617ViewController.m */,
+				616731F0158D6DDA008E186C /* Supporting Files */,
+			);
+			path = Shinthe;
+			sourceTree = "<group>";
+		};
+		616731F0158D6DDA008E186C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616731F1158D6DDA008E186C /* Shinthe-Info.plist */,
+				616731F2158D6DDA008E186C /* InfoPlist.strings */,
+				616731F5158D6DDA008E186C /* main.m */,
+				616731F7158D6DDA008E186C /* Shinthe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61673210158D6DDA008E186C /* ShintheTests */ = {
+			isa = PBXGroup;
+			children = (
+				61673216158D6DDA008E186C /* ShintheTests.h */,
+				61673217158D6DDA008E186C /* ShintheTests.m */,
+				61673211158D6DDA008E186C /* Supporting Files */,
+			);
+			path = ShintheTests;
+			sourceTree = "<group>";
+		};
+		61673211158D6DDA008E186C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61673212158D6DDA008E186C /* ShintheTests-Info.plist */,
+				61673213158D6DDA008E186C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616731E4158D6DD9008E186C /* Shinthe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6167321B158D6DDA008E186C /* Build configuration list for PBXNativeTarget "Shinthe" */;
+			buildPhases = (
+				616731E1158D6DD9008E186C /* Sources */,
+				616731E2158D6DD9008E186C /* Frameworks */,
+				616731E3158D6DD9008E186C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shinthe;
+			productName = Shinthe;
+			productReference = 616731E5158D6DD9008E186C /* Shinthe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61673208158D6DDA008E186C /* ShintheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6167321E158D6DDA008E186C /* Build configuration list for PBXNativeTarget "ShintheTests" */;
+			buildPhases = (
+				61673204158D6DDA008E186C /* Sources */,
+				61673205158D6DDA008E186C /* Frameworks */,
+				61673206158D6DDA008E186C /* Resources */,
+				61673207158D6DDA008E186C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6167320F158D6DDA008E186C /* PBXTargetDependency */,
+			);
+			name = ShintheTests;
+			productName = ShintheTests;
+			productReference = 61673209158D6DDA008E186C /* ShintheTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616731DC158D6DD8008E186C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = 20120617;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 616731DF158D6DD8008E186C /* Build configuration list for PBXProject "Shinthe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 616731DA158D6DD8008E186C;
+			productRefGroup = 616731E6158D6DD9008E186C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616731E4158D6DD9008E186C /* Shinthe */,
+				61673208158D6DDA008E186C /* ShintheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616731E3158D6DD9008E186C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616731F4158D6DDA008E186C /* InfoPlist.strings in Resources */,
+				616731FD158D6DDA008E186C /* MainStoryboard_iPhone.storyboard in Resources */,
+				61673200158D6DDA008E186C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61673206158D6DDA008E186C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61673215158D6DDA008E186C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61673207158D6DDA008E186C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616731E1158D6DD9008E186C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616731F6158D6DDA008E186C /* main.m in Sources */,
+				616731FA158D6DDA008E186C /* _0120617AppDelegate.m in Sources */,
+				61673203158D6DDA008E186C /* _0120617ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61673204158D6DDA008E186C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61673218158D6DDA008E186C /* ShintheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6167320F158D6DDA008E186C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616731E4158D6DD9008E186C /* Shinthe */;
+			targetProxy = 6167320E158D6DDA008E186C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		616731F2158D6DDA008E186C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616731F3158D6DDA008E186C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		616731FB158D6DDA008E186C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616731FC158D6DDA008E186C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		616731FE158D6DDA008E186C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616731FF158D6DDA008E186C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		61673213158D6DDA008E186C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61673214158D6DDA008E186C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61673219158D6DDA008E186C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6167321A158D6DDA008E186C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6167321C158D6DDA008E186C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shinthe/Shinthe-Prefix.pch";
+				INFOPLIST_FILE = "Shinthe/Shinthe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6167321D158D6DDA008E186C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shinthe/Shinthe-Prefix.pch";
+				INFOPLIST_FILE = "Shinthe/Shinthe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6167321F158D6DDA008E186C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shinthe.app/Shinthe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shinthe/Shinthe-Prefix.pch";
+				INFOPLIST_FILE = "ShintheTests/ShintheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		61673220158D6DDA008E186C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shinthe.app/Shinthe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shinthe/Shinthe-Prefix.pch";
+				INFOPLIST_FILE = "ShintheTests/ShintheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616731DF158D6DD8008E186C /* Build configuration list for PBXProject "Shinthe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61673219158D6DDA008E186C /* Debug */,
+				6167321A158D6DDA008E186C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6167321B158D6DDA008E186C /* Build configuration list for PBXNativeTarget "Shinthe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6167321C158D6DDA008E186C /* Debug */,
+				6167321D158D6DDA008E186C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6167321E158D6DDA008E186C /* Build configuration list for PBXNativeTarget "ShintheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6167321F158D6DDA008E186C /* Debug */,
+				61673220158D6DDA008E186C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616731DC158D6DD8008E186C /* Project object */;
+}
